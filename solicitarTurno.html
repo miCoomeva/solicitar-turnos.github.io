@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar Turno - Coomeva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .app-image {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin: 1rem 0;
+        }
+
+        h1 {
+            color: #00934E;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+            font-size: 1.1rem;
+        }
+
+        .btn-turno {
+            background-color: #00934E;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(0,147,78,0.2);
+        }
+
+        .btn-turno:hover {
+            background-color: #006B3B;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,147,78,0.3);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            .app-image {
+                width: 100%;
+                height: 180px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://play-lh.googleusercontent.com/e2muvRpZI6dg3zqKlAGjA-p5PktmezKkUmh2YMIsker4Np2rXCo2ZVELTcQvdjMog_o" alt="Logo Coomeva" class="logo">
+        <h1>Solicita tu turno fácilmente</h1>
+        <p>Agenda de manera rápida y segura a través de la app mi Coomeva</p>
+        <a href="miCoomeva://miticodev.com:8081/tabs/tab2/solicitar-turno" class="btn-turno">
+            Solicitar Turno Ahora
+        </a>
+    </div>
+</body>
+</html>
